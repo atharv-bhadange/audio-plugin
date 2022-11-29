@@ -1,15 +1,12 @@
-# plugin_codelab
+# audio-plugin
 
-A new Flutter plugin project.
+## A flutter plugin for android devices
 
-## Getting Started
+Connecting to the speaker of android phone.   
+This code uses MethodChannels to interact with the native android code written in java. 
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Plaform specific java code is present in [android/src/main/java/com/example/plugin_codelab](https://github.com/atharv-bhadange/audio-plugin/tree/master/android/src/main/java/com/example/plugin_codelab)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+MethodChannel calls from Flutter are present in [example/lib/main.dart](https://github.com/atharv-bhadange/audio-plugin/tree/master/lib)
 
+UI Code of the application resides in [lib/](https://github.com/atharv-bhadange/audio-plugin/blob/master/example/lib/main.dart)
